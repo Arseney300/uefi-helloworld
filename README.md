@@ -13,6 +13,7 @@ Create EFI partition and mount it:
 gdisk uefi.img  
 n -> enter -> enter -> enter -> ef00 -> W(Y)  
 partx -a uefi.img  
+mkfs.fat /dev/loop0p1  
 mkdir efi && mount /dev/loop0p1 efi && cd efi
 
 Compile source code to efi:  
