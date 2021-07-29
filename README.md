@@ -1,5 +1,5 @@
 # uefi-hellowowrld
-Simple helloworld uefi program. x86-32 arch
+Simple helloworld uefi program. x86-64 arch
 
 # preparation
 
